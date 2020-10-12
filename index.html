@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Rock Paper Scissor -->
+        <!-- Joshua Wong || 10/10/2020 -->
+        <title>Rock Paper Scissor Web Game</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        <div id="container">
+            <div class="titlecomputerText">
+                <h1 id="gameTitle">Rock Paper Scissor</h1>
+                <a id="computerChoice">Computer Choice: <span id="computerResult">...</span></a>
+            </div>
+            <button class="game-buttons" id="Rock" onclick="rockChoice()"><img src="images/rock.png" alt="rock" width="200" height="200"></button>
+            <button class="game-buttons" id="Paper" onclick="paperChoice()"><img src="images/paper.png" alt="paper" width="200" height="200"></button>
+            <button class="game-buttons" id="Scissor" onclick="scissorChoice()"><img src="images/scissor.png" alt="scissor" width="200" height="200"></button>
+            <ul>
+                <li id="computerScoreText">Computer Score: <a id="computerScore">0</a></li>
+                <li id="playerScoreText">Player Score: <a id="playerScore">0</a></li>
+            </ul>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

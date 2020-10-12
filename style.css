@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-family: Arial;
+    background-image: linear-gradient(to bottom, rgb(219, 76, 76), rgb(179, 176, 48));
+}
+
+.titlecomputerText{
+    background: -webkit-linear-gradient(left,rgb(4, 0, 255), rgb(43, 255, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 45px;
+    margin: 75;
+    text-align: center;
+}
+
+#container{
+    align-items: center;
+    text-align: center;
+}
+
+#computerChoice{
+    margin: 150;
+    color: white;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.game-buttons{
+    border-radius: 5px;
+    background-color: rgba(255,255,255, 0.5);
+    border: 1px solid transparent;
+    padding: 0.25rem 0.5rem;
+    align-content: center;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.game-buttons:hover{
+    background-color: gray;
+}
+
+ul{
+    list-style: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#computerScoreText{
+    background: -webkit-linear-gradient(left, red, rgb(65, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#playerScoreText{
+    background: -webkit-linear-gradient(left, rgb(0, 60, 255), rgb(0, 255, 242));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
